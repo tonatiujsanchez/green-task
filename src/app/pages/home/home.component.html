@@ -1,131 +1,237 @@
-<!-- Inbox area Start-->
-<div class="inbox-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                <div class="inbox-left-sd">
-                    <div class="compose-ml">
-                        <h4>Categorias</h4>
-                    </div>
-                    <div class="inbox-status">
-                        <ul class="inbox-st-nav inbox-ft">
-                            <li><a href="#"><i class="notika-icon notika-mail"></i> Trabajo<span
-                                        class="pull-right">12</span></a></li>
-                            <li><a href="#"><i class="notika-icon notika-sent"></i> Personal</a></li>
-                            <li><a href="#"><i class="notika-icon notika-draft"></i> Estudios</a></li>
-                            <li><a href="#"><i class="notika-icon notika-trash"></i> Trash</a></li>
-                        </ul>
-                    </div>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="row">
+                <div class="col-md-3 col-xs-6 b-r"> <strong>Full Name</strong>
                     <br>
-                    <div class="form-group todo-flex">
-                        <div class="nk-int-st">
-                            <input type="text" id="todo-input-text" name="todo-input-text" class="form-control"
-                                placeholder="Nueva categoria">
-                        </div>
-                        <div class="todo-send">
-                            <button class="btn-primary btn-md btn-block btn notika-add-todo waves-effect" type="button"
-                                id="todo-btn-submit">
-                                <i class="notika-icon notika-plus-symbol"></i>
-                                <!-- <span> Add</span> -->
-                            </button>
-                        </div>
-                    </div>
+                    <p class="text-muted">Johnathan Deo</p>
                 </div>
-            </div>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-                <div class="inbox-text-list sm-res-mg-t-30">
-                    <div class="form-group">
-                        <div class="nk-int-st search-input search-overt">
-                            <input type="text" class="form-control" placeholder="Nueva tarea" />
-                            <button class="btn search-ib">
-                                <i class="notika-icon notika-plus-symbol"></i>
-                                <span> Add</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="inbox-btn-st-ls btn-toolbar">
-                        <div class="btn-group ib-btn-gp active-hook nk-email-inbox">
-                            <button class="btn btn-default btn-sm"><i class="notika-icon notika-form"></i>
-                                Todos</button>
-                            <button class="btn btn-default btn-sm"><i class="notika-icon notika-edit"></i>
-                                Pendiantes</button>
-                            <button class="btn btn-default btn-sm"><i class="notika-icon notika-success"></i>
-                                Completados</button>
-                        </div>
-                        <div class="btn-group ib-btn-gp active-hook nk-act nk-email-inbox">
-                            <button class="btn btn-default btn-sm"><i class="notika-icon notika-trash"></i></button>
-                        </div>
-                    </div>
-                    <div class="table-responsive">
-                        <div class="notika-todo-scrollbar mCustomScrollbar _mCS_2 mCS-autoHide"
-                            style="height: 445px; position: relative; overflow: visible;">
-                            <div id="mCSB_2" class="mCustomScrollBox mCS-light-1 mCSB_vertical mCSB_outside"
-                                tabindex="0" style="max-height: none;">
-                                <div id="mCSB_2_container" class="mCSB_container"
-                                    style="position: relative; top: 0px; left: 0px;" dir="ltr">
-                                    <ul class="list-group no-margn todo-list" id="todo-list">
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="9" type="checkbox" checked="">
-                                                <label for="9">Nullam dolor nibh ultricies</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="8" type="checkbox" checked="">
-                                                <label for="8">Nullam dolor nibh ultricies</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="7" type="checkbox" checked="">
-                                                <label for="7">Fivamus sagittis lacus vel</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="6" type="checkbox" checked="">
-                                                <label for="6">Cras mattis consectetur</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="5" type="checkbox">
-                                                <label for="5">Praesent commodo cursus magnavel</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="4" type="checkbox" checked="">
-                                                <label for="4">Integer posuere erat ante</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="3" type="checkbox" checked="">
-                                                <label for="3">Cras mattis consectetur purus</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="2" type="checkbox" checked="">
-                                                <label for="2">Nullam dolor nibh ultricies</label>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="checkbox checkbox-primary">
-                                                <input class="todo-done" id="1" type="checkbox">
-                                                <label for="1">Fivamus sagittis lacus vel</label>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-3 col-xs-6 b-r"> <strong>Mobile</strong>
+                    <br>
+                    <p class="text-muted">(123) 456 7890</p>
+                </div>
+                <div class="col-md-3 col-xs-6 b-r"> <strong>Email</strong>
+                    <br>
+                    <p class="text-muted">johnathan@admin.com</p>
+                </div>
+                <div class="col-md-3 col-xs-6"> <strong>Location</strong>
+                    <br>
+                    <p class="text-muted">London</p>
                 </div>
             </div>
         </div>
     </div>
+</div>     
+            
+<!-- ============================================================== -->
+<!-- Start Page Content -->
+<!-- ============================================================== -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <!-- Contenido principal-->
+            <div class="contact-page-aside">
+                <!-- Categorias-->
+                <div class="left-aside bg-light-part">
+                    <ul class="list-style-none">
+                        <li class="box-label"><a href="javascript:void(0)">Categorias <span>4</span></a></li>
+                        <li class="divider"></li>
+                        <li><a href="javascript:void(0)">Trabajo
+                            <span class="action-icons">
+                                <a href="javascript:void(0)"><i class="ti-pencil-alt"></i></a>
+                            </span>
+                        </a></li>
+                        <li><a href="javascript:void(0)">Personal <span>19</span></a></li>
+                        <li><a href="javascript:void(0)">Friends <span>623</span></a></li>
+                        <li><a href="javascript:void(0)">Private <span>53</span></a></li>
+                    </ul>
+                    <div class="input-group">
+                        <input type="text" id="demo-input-search2" placeholder="Nueva categoria" class="form-control mr-0">
+                        <span class="input-group-btn">
+                            <button class="btn waves-effect waves-light btn-success" type="button">
+                                <i class="ti-plus text"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
+                <!-- Tareas-->
+                <div class="right-aside ">
+                    <div class="right-page-header">
+                        <div class="d-flex">
+                            <div class="align-self-center">
+                                <h4 class="card-title m-t-10">Tareas de Trabajo </h4>
+                            </div>
+                            <div class="ml-auto">
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fa fa-trash-o"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tabs de todos -->
+                    <div class="table-responsive">
+                        <div class="card">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs profile-tab" role="tablist">
+                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Todos</a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Pendientes</a> </li>
+                                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#settings" role="tab">Terminados</a> </li>
+                                <div class="ml-auto mr-4">
+                                    <input type="text" id="demo-input-search2" placeholder="Nueva tarea" class="form-control">
+                                </div>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="home" role="tabpanel">
+                                    <div class="card-body">
+                                        
+                                        <!-- ============================================================== -->
+                                        <!-- Todos-->
+                                        <!-- ============================================================== -->
+                                        <div class="to-do-widget">
+
+                                            <ul class="list-task todo-list list-group m-b-0" data-role="tasklist">
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info m-b-10">
+                                                        <input type="checkbox" id="inputSchedule" name="inputCheckboxesSchedule">
+                                                        <label for="inputSchedule" class="">
+                                                            <span>App del Despertar</span>
+                                                            <span class="label label-rounded label-danger pull-right">Today</span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="inputBook" name="inputCheckboxesBook">
+                                                        <label for="inputBook" class=""> 
+                                                            <span>legado de Guerrero</span>
+                                                            <span class="label label-primary label-rounded pull-right">1 week </span> 
+                                                        </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="inputCall" name="inputCheckboxesCall">
+                                                        <label for="inputCall" class=""> 
+                                                            <span>Give Purchase report</span> 
+                                                            <span class="label label-info label-rounded pull-right">Yesterday</span> 
+                                                        </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="inputForward" name="inputCheckboxesForward">
+                                                        <label for="inputForward" class=""> 
+                                                            <span>Portafolio</span> 
+                                                            <span class="label label-warning label-rounded pull-right">2 weeks</span> 
+                                                        </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--second tab-->
+                                <div class="tab-pane" id="profile" role="tabpanel">
+                                    <div class="card-body">
+                                        <!-- ============================================================== -->
+                                        <!-- Todos-->
+                                        <!-- ============================================================== -->
+                                        <div class="to-do-widget">
+                                            <ul class="list-task todo-list list-group m-b-0" data-role="tasklist">
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info m-b-10">
+                                                        <input type="checkbox" id="app-01" name="inputCheckboxesSchedule">
+                                                        <label for="app-01" class=""> <span>App del Despertar</span> <span class="label label-rounded label-danger pull-right">Today</span></label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="app-02" name="inputCheckboxesBook">
+                                                        <label for="app-02" class=""> <span>App Legado de Tlapa</span><span class="label label-primary label-rounded pull-right">1 week </span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="app-03" name="inputCheckboxesCall">
+                                                        <label for="app-03" class=""> <span>Sitio Legado de Guerrero</span> <span class="label label-info label-rounded pull-right">Yesterday</span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="app-04" name="inputCheckboxesForward">
+                                                        <label for="app-04" class=""> 
+                                                            <span>Portafolio</span> 
+                                                            <span class="label label-warning label-rounded pull-right">2 weeks</span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="settings" role="tabpanel">
+                                    <div class="card-body">
+                                        <!-- ============================================================== -->
+                                        <!-- Todos-->
+                                        <!-- ============================================================== -->
+                                        <div class="to-do-widget">
+                                            <ul class="list-task todo-list list-group m-b-0" data-role="tasklist">
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info m-b-10">
+                                                        <input type="checkbox" id="tab3-01" name="inputCheckboxesSchedule">
+                                                        <label for="tab3-01" class=""> <span>App del Despertar</span> <span class="label label-rounded label-danger pull-right">Today</span></label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="tab3-02" name="inputCheckboxesBook">
+                                                        <label for="tab3-02" class=""> <span>App Legado de Tlapa</span><span class="label label-primary label-rounded pull-right">1 week </span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="tab3-03" name="inputCheckboxesCall">
+                                                        <label for="tab3-03" class=""> <span>Sitio Legado de Guerrero</span> <span class="label label-info label-rounded pull-right">Yesterday</span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                                <li class="list-group-item" data-role="task">
+                                                    <div class="checkbox checkbox-info">
+                                                        <input type="checkbox" id="tab3-04" name="inputCheckboxesForward">
+                                                        <label for="tab3-04" class=""> 
+                                                            <span>Portafolio</span> 
+                                                            <span class="label label-warning label-rounded pull-right">2 weeks</span> </label>
+                                                    </div>
+                                                    <div class="item-date"> 26 jun 2017</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .left-aside-column-->
+                </div>
+                <!-- /.left-right-aside-column-->
+            </div>
+        </div>
+    </div>
 </div>
-<!-- Inbox area End-->
+<!-- ============================================================== -->
+<!-- End PAge Content -->
+<!-- ============================================================== -->

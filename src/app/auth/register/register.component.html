@@ -1,44 +1,49 @@
-<div class="login-content">
-        <!-- Register -->
-        <div class="nk-block toggled">
-            <div class="nk-form">
-                <div class="input-group">
-                    <span class="input-group-addon nk-ic-st-pro"><i class="notika-icon notika-support"></i></span>
-                    <div class="nk-int-st">
-                        <input type="text" class="form-control" placeholder="Usuario">
+<section id="wrapper">
+    <div class="login-register" style="background-image:url(../assets/images/background/login-register.jpg);">
+        <div class="login-box card">
+            <div class="card-body">
+                <form class="form-horizontal form-material" id="loginform" action="index.html">
+                    <h3 class="box-title m-b-20">Crear cuenta</h3>
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="text" required="" placeholder="Nombre">
+                        </div>
                     </div>
-                </div>
-
-                <div class="input-group mg-t-15">
-                    <span class="input-group-addon nk-ic-st-pro"><i class="notika-icon notika-mail"></i></span>
-                    <div class="nk-int-st">
-                        <input type="text" class="form-control" placeholder="Correo">
+                    <div class="form-group ">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="text" required="" placeholder="Correo">
+                        </div>
                     </div>
-                </div>
-
-                <div class="input-group mg-t-15">
-                    <span class="input-group-addon nk-ic-st-pro"><i class="notika-icon notika-edit"></i></span>
-                    <div class="nk-int-st">
-                        <input type="password" class="form-control" placeholder="contraseña">
+                    <div class="form-group ">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="password" required="" placeholder="Contraseña">
+                        </div>
                     </div>
-                </div>
-                <div class="input-group mg-t-15">
-                    <span class="input-group-addon nk-ic-st-pro"><i class="notika-icon notika-edit"></i></span>
-                    <div class="nk-int-st">
-                        <input type="password" class="form-control" placeholder="Repita contraseña">
+                    <div class="form-group">
+                        <div class="col-xs-12">
+                            <input class="form-control" type="password" required="" placeholder="Confirma Contraseña">
+                        </div>
                     </div>
-                </div>
-
-                <!-- <a href="#l-login" data-ma-action="nk-login-switch" data-ma-block="#l-login" class="btn btn-login btn-success btn-float"><i class="notika-icon notika-right-arrow"></i></a> -->
-            </div>
-
-            <div class="nk-navigation rg-ic-stl">
-                <div class="col-xs-6 text-right">
-                    <button class="btn btn-success notika-btn-success waves-effect">Registrarme</button>
-                </div>
-                <div class="col-xs-6 text-left">
-                    <button (click)="navegar()" class="btn btn-success notika-btn-success waves-effect">Ya tengo cuenta</button>
-                </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <div class="checkbox checkbox-success p-t-0">
+                                <input id="checkbox-signup" type="checkbox"  class="filled-in chk-col-light-blue">
+                                <label for="checkbox-signup"> Estoy de acuerdo con todos <a href="javascript:void(0)">Terminos y Condiciones</a></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group text-center p-b-20">
+                        <div class="col-xs-12">
+                            <button class="btn btn-success btn-lg btn-block btn-rounded text-uppercase waves-effect waves-light" type="submit">Registrarme</button>
+                        </div>
+                    </div>
+                    <div class="form-group m-b-0">
+                        <div class="col-sm-12 text-center">
+                            ¿Ya tienes una cuenta? <a href="pages-login.html" class="text-success m-l-5"><b>Inicia sesión</b></a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-</div>
+    </div>
+</section>
